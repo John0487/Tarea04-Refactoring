@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: Model.PagoTest
+Test set: Model.ReservaTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.209 s -- in Model.PagoTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.040 s -- in Model.ReservaTest

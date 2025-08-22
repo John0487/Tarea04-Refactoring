@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Model.UsuarioTest" time="0.241" tests="6" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Model.ReservaTest" time="0.04" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -59,43 +59,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="CP_10" classname="Model.UsuarioTest" time="0.132">
-    <system-out><![CDATA[Realizando reserva por usuario : Juan con ID: 101
-💰 Costo total calculado: $120.0
+  <testcase name="CP_08" classname="Model.ReservaTest" time="0.008">
+    <system-out><![CDATA[💰 Costo total calculado: $300.0
 ]]></system-out>
   </testcase>
-  <testcase name="CP_11" classname="Model.UsuarioTest" time="0.015">
-    <system-out><![CDATA[Realizando reserva por usuario : Juan con ID: 101
-]]></system-out>
-  </testcase>
-  <testcase name="CP_12" classname="Model.UsuarioTest" time="0.027">
-    <system-out><![CDATA[💳 Validando pago de $100.0 con TarjetaDeCredito
-Usuario: Ana ha pagado la cantidad de: 100.0 con: TarjetaDeCredito
-]]></system-out>
-  </testcase>
-  <testcase name="CP_13" classname="Model.UsuarioTest" time="0.009">
-    <failure message="Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
-	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:73)
-	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
-	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
-	at Model.UsuarioTest.CP_13(UsuarioTest.java:60)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-]]></failure>
-    <system-out><![CDATA[💳 Validando pago de $-50.0 con Efectivo
-No se pudo completar el pago, intente otra vez
-]]></system-out>
-  </testcase>
-  <testcase name="CP_19" classname="Model.UsuarioTest" time="0.005">
-    <system-out><![CDATA[Realizando reserva por usuario : Juan con ID: 101
-]]></system-out>
-  </testcase>
-  <testcase name="CP_20" classname="Model.UsuarioTest" time="0.006">
-    <system-out><![CDATA[Realizando reserva por usuario : Juan con ID: 101
-💰 Costo total calculado: $200.0
-💰 Costo total calculado: $200.0
-]]></system-out>
-  </testcase>
+  <testcase name="CP_09" classname="Model.ReservaTest" time="0.019"/>
 </testsuite>

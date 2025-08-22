@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.55.0" timestamp="2025-08-22T16:32:12.274">
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\Adapter\AdapterNotificadorCorreo.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="15" rule="PackageCase" ruleset="Code Style" package="Adapter" class="AdapterNotificadorCorreo" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="7" endline="7" begincolumn="55" endcolumn="56" rule="ShortVariable" ruleset="Code Style" package="Adapter" class="AdapterNotificadorCorreo" method="AdapterNotificadorCorreo" variable="nc" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like nc
+</violation>
+<violation beginline="7" endline="7" begincolumn="37" endcolumn="56" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Adapter" class="AdapterNotificadorCorreo" method="AdapterNotificadorCorreo" variable="nc" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'nc' is not assigned and could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="44" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Adapter" class="AdapterNotificadorCorreo" method="notificar" variable="test" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'test' is not assigned and could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="27" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Adapter" class="AdapterNotificadorCorreo" method="notificar" variable="usuario" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'usuario' is not assigned and could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="38" endcolumn="72" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Adapter" class="AdapterNotificadorCorreo" method="setNotificadorCorreo" variable="notificadorCorreo" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'notificadorCorreo' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\Adapter\AdapterNotificadorMensajeria.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="15" rule="PackageCase" ruleset="Code Style" package="Adapter" class="AdapterNotificadorMensajeria" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="5" endline="5" begincolumn="34" endcolumn="54" rule="LongVariable" ruleset="Code Style" package="Adapter" class="AdapterNotificadorMensajeria" variable="notificadorMensajeria" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like notificadorMensajeria
+</violation>
+<violation beginline="7" endline="7" begincolumn="63" endcolumn="64" rule="ShortVariable" ruleset="Code Style" package="Adapter" class="AdapterNotificadorMensajeria" method="AdapterNotificadorMensajeria" variable="nm" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like nm
+</violation>
+<violation beginline="7" endline="7" begincolumn="41" endcolumn="64" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Adapter" class="AdapterNotificadorMensajeria" method="AdapterNotificadorMensajeria" variable="nm" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'nm' is not assigned and could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="44" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Adapter" class="AdapterNotificadorMensajeria" method="notificar" variable="test" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'test' is not assigned and could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="27" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Adapter" class="AdapterNotificadorMensajeria" method="notificar" variable="usuario" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'usuario' is not assigned and could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="64" endcolumn="84" rule="LongVariable" ruleset="Code Style" package="Adapter" class="AdapterNotificadorMensajeria" method="setNotificadorMensajeria" variable="notificadorMensajeria" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like notificadorMensajeria
+</violation>
+<violation beginline="23" endline="23" begincolumn="42" endcolumn="84" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Adapter" class="AdapterNotificadorMensajeria" method="setNotificadorMensajeria" variable="notificadorMensajeria" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'notificadorMensajeria' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\Adapter\AdapterNotificadorSMS.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="15" rule="PackageCase" ruleset="Code Style" package="Adapter" class="AdapterNotificadorSMS" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="7" endline="7" begincolumn="49" endcolumn="50" rule="ShortVariable" ruleset="Code Style" package="Adapter" class="AdapterNotificadorSMS" method="AdapterNotificadorSMS" variable="ns" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like ns
+</violation>
+<violation beginline="7" endline="7" begincolumn="34" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Adapter" class="AdapterNotificadorSMS" method="AdapterNotificadorSMS" variable="ns" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'ns' is not assigned and could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="44" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Adapter" class="AdapterNotificadorSMS" method="notificar" variable="test" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'test' is not assigned and could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="27" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Adapter" class="AdapterNotificadorSMS" method="notificar" variable="usuario" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'usuario' is not assigned and could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="35" endcolumn="63" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Adapter" class="AdapterNotificadorSMS" method="setNotificadorSMS" variable="notificadorSMS" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'notificadorSMS' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\Adapter\Notificador.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="15" rule="PackageCase" ruleset="Code Style" package="Adapter" class="Notificador" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="5" endline="5" begincolumn="12" endcolumn="56" rule="UnnecessaryModifier" ruleset="Code Style" package="Adapter" class="Notificador" method="notificar" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'notificar': the method is declared in an interface type
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\Adapter\NotificadorCorreo.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="15" rule="PackageCase" ruleset="Code Style" package="Adapter" class="NotificadorCorreo" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="4" endline="8" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="Adapter" class="NotificadorCorreo" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="5" endline="5" begincolumn="30" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Adapter" class="NotificadorCorreo" method="enviarCorreo" variable="usuario" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'usuario' is not assigned and could be declared final
+</violation>
+<violation beginline="6" endline="6" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Adapter" class="NotificadorCorreo" method="enviarCorreo" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\Adapter\NotificadorMensajeria.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="15" rule="PackageCase" ruleset="Code Style" package="Adapter" class="NotificadorMensajeria" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="4" endline="8" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="Adapter" class="NotificadorMensajeria" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="5" endline="5" begincolumn="31" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Adapter" class="NotificadorMensajeria" method="enviarMensaje" variable="usuario" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'usuario' is not assigned and could be declared final
+</violation>
+<violation beginline="6" endline="6" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Adapter" class="NotificadorMensajeria" method="enviarMensaje" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\Adapter\NotificadorSMS.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="15" rule="PackageCase" ruleset="Code Style" package="Adapter" class="NotificadorSMS" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="4" endline="8" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="Adapter" class="NotificadorSMS" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="5" endline="5" begincolumn="27" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Adapter" class="NotificadorSMS" method="enviarSMS" variable="usuario" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'usuario' is not assigned and could be declared final
+</violation>
+<violation beginline="6" endline="6" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Adapter" class="NotificadorSMS" method="enviarSMS" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\ChainOfResponsibility\AgenteDeSoporte.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="29" rule="PackageCase" ruleset="Code Style" package="ChainOfResponsibility" class="AgenteDeSoporte" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="8" endline="8" begincolumn="32" endcolumn="32" rule="ShortVariable" ruleset="Code Style" package="ChainOfResponsibility" class="AgenteDeSoporte" method="AgenteDeSoporte" variable="n" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like n
+</violation>
+<violation beginline="8" endline="8" begincolumn="28" endcolumn="32" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ChainOfResponsibility" class="AgenteDeSoporte" method="AgenteDeSoporte" variable="n" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'n' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="41" endcolumn="41" rule="ShortVariable" ruleset="Code Style" package="ChainOfResponsibility" class="AgenteDeSoporte" method="atenderReporte" variable="p" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like p
+</violation>
+<violation beginline="13" endline="13" begincolumn="32" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ChainOfResponsibility" class="AgenteDeSoporte" method="atenderReporte" variable="p" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'p' is not assigned and could be declared final
+</violation>
+<violation beginline="14" endline="14" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="ChainOfResponsibility" class="AgenteDeSoporte" method="atenderReporte" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="20" endline="20" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="ChainOfResponsibility" class="AgenteDeSoporte" method="atenderReporte" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="27" endline="27" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="ChainOfResponsibility" class="AgenteDeSoporte" method="atenderReporte" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="31" endline="31" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="ChainOfResponsibility" class="AgenteDeSoporte" method="atenderReporte" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="36" endline="36" begincolumn="54" endcolumn="54" rule="ShortVariable" ruleset="Code Style" package="ChainOfResponsibility" class="AgenteDeSoporte" method="proporcionarSoporteTecnico" variable="p" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like p
+</violation>
+<violation beginline="36" endline="36" begincolumn="45" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ChainOfResponsibility" class="AgenteDeSoporte" method="proporcionarSoporteTecnico" variable="p" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'p' is not assigned and could be declared final
+</violation>
+<violation beginline="37" endline="37" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="ChainOfResponsibility" class="AgenteDeSoporte" method="proporcionarSoporteTecnico" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="38" endline="38" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="ChainOfResponsibility" class="AgenteDeSoporte" method="proporcionarSoporteTecnico" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="39" endline="39" begincolumn="67" endcolumn="92" rule="LawOfDemeter" ruleset="Design" package="ChainOfResponsibility" class="AgenteDeSoporte" method="proporcionarSoporteTecnico" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="39" endline="39" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="ChainOfResponsibility" class="AgenteDeSoporte" method="proporcionarSoporteTecnico" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="40" endline="40" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="ChainOfResponsibility" class="AgenteDeSoporte" method="proporcionarSoporteTecnico" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\ChainOfResponsibility\GerenciaCrucero.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="29" rule="PackageCase" ruleset="Code Style" package="ChainOfResponsibility" class="GerenciaCrucero" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="8" endline="8" begincolumn="32" endcolumn="32" rule="ShortVariable" ruleset="Code Style" package="ChainOfResponsibility" class="GerenciaCrucero" method="GerenciaCrucero" variable="n" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like n
+</violation>
+<violation beginline="8" endline="8" begincolumn="28" endcolumn="32" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ChainOfResponsibility" class="GerenciaCrucero" method="GerenciaCrucero" variable="n" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'n' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="41" endcolumn="41" rule="ShortVariable" ruleset="Code Style" package="ChainOfResponsibility" class="GerenciaCrucero" method="atenderReporte" variable="p" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like p
+</violation>
+<violation beginline="13" endline="13" begincolumn="32" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ChainOfResponsibility" class="GerenciaCrucero" method="atenderReporte" variable="p" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'p' is not assigned and could be declared final
+</violation>
+<violation beginline="14" endline="14" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="ChainOfResponsibility" class="GerenciaCrucero" method="atenderReporte" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="18" endline="18" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="ChainOfResponsibility" class="GerenciaCrucero" method="atenderReporte" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="25" endline="25" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="ChainOfResponsibility" class="GerenciaCrucero" method="atenderReporte" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="29" endline="29" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="ChainOfResponsibility" class="GerenciaCrucero" method="atenderReporte" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="34" endline="34" begincolumn="50" endcolumn="50" rule="UnusedFormalParameter" ruleset="Best Practices" package="ChainOfResponsibility" class="GerenciaCrucero" method="manejarProblemaCritico" variable="p" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'p'.
+</violation>
+<violation beginline="34" endline="34" begincolumn="50" endcolumn="50" rule="ShortVariable" ruleset="Code Style" package="ChainOfResponsibility" class="GerenciaCrucero" method="manejarProblemaCritico" variable="p" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like p
+</violation>
+<violation beginline="34" endline="34" begincolumn="41" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ChainOfResponsibility" class="GerenciaCrucero" method="manejarProblemaCritico" variable="p" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'p' is not assigned and could be declared final
+</violation>
+<violation beginline="35" endline="35" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="ChainOfResponsibility" class="GerenciaCrucero" method="manejarProblemaCritico" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="36" endline="36" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="ChainOfResponsibility" class="GerenciaCrucero" method="manejarProblemaCritico" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="37" endline="37" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="ChainOfResponsibility" class="GerenciaCrucero" method="manejarProblemaCritico" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="38" endline="38" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="ChainOfResponsibility" class="GerenciaCrucero" method="manejarProblemaCritico" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\ChainOfResponsibility\HandlerReporte.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="29" rule="PackageCase" ruleset="Code Style" package="ChainOfResponsibility" class="HandlerReporte" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="5" endline="56" begincolumn="17" endcolumn="1" rule="DataClass" ruleset="Design" package="ChainOfResponsibility" class="HandlerReporte" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'HandlerReporte' is suspected to be a Data Class (WOC=12.500%, NOPA=0, NOAM=5, WMC=10)
+</violation>
+<violation beginline="8" endline="8" begincolumn="19" endcolumn="20" rule="ShortVariable" ruleset="Code Style" package="ChainOfResponsibility" class="HandlerReporte" variable="ID" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like ID
+</violation>
+<violation beginline="8" endline="8" begincolumn="19" endcolumn="20" rule="FieldNamingConventions" ruleset="Code Style" package="ChainOfResponsibility" class="HandlerReporte" variable="ID" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The field name 'ID' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="10" endline="10" begincolumn="46" endcolumn="47" rule="ShortVariable" ruleset="Code Style" package="ChainOfResponsibility" class="HandlerReporte" method="HandlerReporte" variable="ID" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like ID
+</violation>
+<violation beginline="10" endline="10" begincolumn="42" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ChainOfResponsibility" class="HandlerReporte" method="HandlerReporte" variable="ID" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'ID' is not assigned and could be declared final
+</violation>
+<violation beginline="10" endline="10" begincolumn="27" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ChainOfResponsibility" class="HandlerReporte" method="HandlerReporte" variable="nombre" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'nombre' is not assigned and could be declared final
+</violation>
+<violation beginline="10" endline="10" begincolumn="46" endcolumn="47" rule="FormalParameterNamingConventions" ruleset="Code Style" package="ChainOfResponsibility" class="HandlerReporte" method="HandlerReporte" variable="ID" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions" priority="1">
+The method parameter name 'ID' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="15" endline="15" begincolumn="74" endcolumn="75" rule="ShortVariable" ruleset="Code Style" package="ChainOfResponsibility" class="HandlerReporte" method="HandlerReporte" variable="ID" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like ID
+</violation>
+<violation beginline="15" endline="15" begincolumn="70" endcolumn="75" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ChainOfResponsibility" class="HandlerReporte" method="HandlerReporte" variable="ID" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'ID' is not assigned and could be declared final
+</violation>
+<violation beginline="15" endline="15" begincolumn="27" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ChainOfResponsibility" class="HandlerReporte" method="HandlerReporte" variable="nextHandler" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'nextHandler' is not assigned and could be declared final
+</violation>
+<violation beginline="15" endline="15" begincolumn="55" endcolumn="67" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ChainOfResponsibility" class="HandlerReporte" method="HandlerReporte" variable="nombre" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'nombre' is not assigned and could be declared final
+</violation>
+<violation beginline="15" endline="15" begincolumn="74" endcolumn="75" rule="FormalParameterNamingConventions" ruleset="Code Style" package="ChainOfResponsibility" class="HandlerReporte" method="HandlerReporte" variable="ID" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions" priority="1">
+The method parameter name 'ID' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="21" endline="21" begincolumn="40" endcolumn="40" rule="ShortVariable" ruleset="Code Style" package="ChainOfResponsibility" class="HandlerReporte" method="setNext" variable="h" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like h
+</violation>
+<violation beginline="21" endline="21" begincolumn="25" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ChainOfResponsibility" class="HandlerReporte" method="setNext" variable="h" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'h' is not assigned and could be declared final
+</violation>
+<violation beginline="25" endline="25" begincolumn="50" endcolumn="50" rule="ShortVariable" ruleset="Code Style" package="ChainOfResponsibility" class="HandlerReporte" method="atenderReporte" variable="p" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like p
+</violation>
+<violation beginline="27" endline="27" begincolumn="42" endcolumn="58" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ChainOfResponsibility" class="HandlerReporte" method="transferirAlSiguiente" variable="problema" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'problema' is not assigned and could be declared final
+</violation>
+<violation beginline="29" endline="29" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="ChainOfResponsibility" class="HandlerReporte" method="transferirAlSiguiente" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="32" endline="32" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="ChainOfResponsibility" class="HandlerReporte" method="transferirAlSiguiente" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="49" endline="49" begincolumn="27" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ChainOfResponsibility" class="HandlerReporte" method="setNombre" variable="nombre" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'nombre' is not assigned and could be declared final
+</violation>
+<violation beginline="53" endline="53" begincolumn="27" endcolumn="28" rule="ShortVariable" ruleset="Code Style" package="ChainOfResponsibility" class="HandlerReporte" method="setID" variable="ID" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like ID
+</violation>
+<violation beginline="53" endline="53" begincolumn="23" endcolumn="28" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ChainOfResponsibility" class="HandlerReporte" method="setID" variable="ID" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'ID' is not assigned and could be declared final
+</violation>
+<violation beginline="53" endline="53" begincolumn="27" endcolumn="28" rule="FormalParameterNamingConventions" ruleset="Code Style" package="ChainOfResponsibility" class="HandlerReporte" method="setID" variable="ID" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions" priority="1">
+The method parameter name 'ID' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\FactoryMethod\Cabina.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="21" rule="PackageCase" ruleset="Code Style" package="FactoryMethod" class="Cabina" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="3" endline="67" begincolumn="17" endcolumn="1" rule="DataClass" ruleset="Design" package="FactoryMethod" class="Cabina" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Cabina' is suspected to be a Data Class (WOC=22.222%, NOPA=0, NOAM=6, WMC=14)
+</violation>
+<violation beginline="3" endline="67" begincolumn="17" endcolumn="1" rule="AbstractClassWithoutAbstractMethod" ruleset="Best Practices" package="FactoryMethod" class="Cabina" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#abstractclasswithoutabstractmethod" priority="3">
+This abstract class does not have any abstract methods
+</violation>
+<violation beginline="4" endline="4" begincolumn="19" endcolumn="26" rule="FieldNamingConventions" ruleset="Code Style" package="FactoryMethod" class="Cabina" variable="n_cabina" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The field name 'n_cabina' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="8" endline="8" begincolumn="33" endcolumn="51" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="Cabina" method="Cabina" variable="estado" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'estado' is not assigned and could be declared final
+</violation>
+<violation beginline="8" endline="8" begincolumn="19" endcolumn="30" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="Cabina" method="Cabina" variable="n_cabina" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'n_cabina' is not assigned and could be declared final
+</violation>
+<violation beginline="8" endline="8" begincolumn="54" endcolumn="66" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="Cabina" method="Cabina" variable="precio" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'precio' is not assigned and could be declared final
+</violation>
+<violation beginline="8" endline="8" begincolumn="23" endcolumn="30" rule="FormalParameterNamingConventions" ruleset="Code Style" package="FactoryMethod" class="Cabina" method="Cabina" variable="n_cabina" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions" priority="1">
+The method parameter name 'n_cabina' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="14" endline="16" begincolumn="12" endcolumn="5" rule="MethodNamingConventions" ruleset="Code Style" package="FactoryMethod" class="Cabina" method="getN_cabina" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'getN_cabina' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="27" endline="27" begincolumn="29" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="Cabina" method="setN_cabina" variable="n_cabina" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'n_cabina' is not assigned and could be declared final
+</violation>
+<violation beginline="27" endline="29" begincolumn="12" endcolumn="5" rule="MethodNamingConventions" ruleset="Code Style" package="FactoryMethod" class="Cabina" method="setN_cabina" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'setN_cabina' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="27" endline="27" begincolumn="33" endcolumn="40" rule="FormalParameterNamingConventions" ruleset="Code Style" package="FactoryMethod" class="Cabina" method="setN_cabina" variable="n_cabina" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions" priority="1">
+The method parameter name 'n_cabina' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="31" endline="31" begincolumn="27" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="Cabina" method="setEstado" variable="estado" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'estado' is not assigned and could be declared final
+</violation>
+<violation beginline="35" endline="35" begincolumn="27" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="Cabina" method="setPrecio" variable="precio" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'precio' is not assigned and could be declared final
+</violation>
+<violation beginline="41" endline="41" begincolumn="9" endcolumn="20" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="Cabina" method="hashCode" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'hash' could be declared final
+</violation>
+<violation beginline="42" endline="42" begincolumn="9" endcolumn="20" rule="UnnecessaryLocalBeforeReturn" ruleset="Code Style" package="FactoryMethod" class="Cabina" method="hashCode" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessarylocalbeforereturn" priority="3">
+Consider simply returning the value vs storing it in local variable 'hash'
+</violation>
+<violation beginline="46" endline="46" begincolumn="27" endcolumn="36" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="Cabina" method="equals" variable="obj" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'obj' is not assigned and could be declared final
+</violation>
+<violation beginline="48" endline="48" begincolumn="13" endcolumn="24" rule="OnlyOneReturn" ruleset="Code Style" package="FactoryMethod" class="Cabina" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="51" endline="51" begincolumn="13" endcolumn="25" rule="OnlyOneReturn" ruleset="Code Style" package="FactoryMethod" class="Cabina" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="54" endline="54" begincolumn="13" endcolumn="25" rule="OnlyOneReturn" ruleset="Code Style" package="FactoryMethod" class="Cabina" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="58" endline="58" begincolumn="13" endcolumn="25" rule="OnlyOneReturn" ruleset="Code Style" package="FactoryMethod" class="Cabina" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="61" endline="61" begincolumn="13" endcolumn="25" rule="OnlyOneReturn" ruleset="Code Style" package="FactoryMethod" class="Cabina" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\FactoryMethod\CabinaBalcon.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="21" rule="PackageCase" ruleset="Code Style" package="FactoryMethod" class="CabinaBalcon" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="4" endline="4" begincolumn="39" endcolumn="57" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="CabinaBalcon" method="CabinaBalcon" variable="estado" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'estado' is not assigned and could be declared final
+</violation>
+<violation beginline="4" endline="4" begincolumn="25" endcolumn="36" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="CabinaBalcon" method="CabinaBalcon" variable="n_cabina" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'n_cabina' is not assigned and could be declared final
+</violation>
+<violation beginline="4" endline="4" begincolumn="60" endcolumn="72" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="CabinaBalcon" method="CabinaBalcon" variable="precio" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'precio' is not assigned and could be declared final
+</violation>
+<violation beginline="4" endline="4" begincolumn="29" endcolumn="36" rule="FormalParameterNamingConventions" ruleset="Code Style" package="FactoryMethod" class="CabinaBalcon" method="CabinaBalcon" variable="n_cabina" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions" priority="1">
+The method parameter name 'n_cabina' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\FactoryMethod\CabinaBalconFactory.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="21" rule="PackageCase" ruleset="Code Style" package="FactoryMethod" class="CabinaBalconFactory" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="3" endline="13" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="FactoryMethod" class="CabinaBalconFactory" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="6" endline="6" begincolumn="35" endcolumn="35" rule="ShortVariable" ruleset="Code Style" package="FactoryMethod" class="CabinaBalconFactory" method="crearCabina" variable="n" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like n
+</violation>
+<violation beginline="6" endline="6" begincolumn="38" endcolumn="56" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="CabinaBalconFactory" method="crearCabina" variable="estado" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'estado' is not assigned and could be declared final
+</violation>
+<violation beginline="6" endline="6" begincolumn="31" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="CabinaBalconFactory" method="crearCabina" variable="n" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'n' is not assigned and could be declared final
+</violation>
+<violation beginline="6" endline="6" begincolumn="59" endcolumn="71" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="CabinaBalconFactory" method="crearCabina" variable="precio" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'precio' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\FactoryMethod\CabinaFactory.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="21" rule="PackageCase" ruleset="Code Style" package="FactoryMethod" class="CabinaFactory" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="4" endline="4" begincolumn="35" endcolumn="35" rule="ShortVariable" ruleset="Code Style" package="FactoryMethod" class="CabinaFactory" method="crearCabina" variable="n" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like n
+</violation>
+<violation beginline="4" endline="4" begincolumn="12" endcolumn="73" rule="UnnecessaryModifier" ruleset="Code Style" package="FactoryMethod" class="CabinaFactory" method="crearCabina" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'crearCabina': the method is declared in an interface type
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\FactoryMethod\CabinaFamiliar.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="21" rule="PackageCase" ruleset="Code Style" package="FactoryMethod" class="CabinaFamiliar" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="4" endline="4" begincolumn="41" endcolumn="59" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="CabinaFamiliar" method="CabinaFamiliar" variable="estado" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'estado' is not assigned and could be declared final
+</violation>
+<violation beginline="4" endline="4" begincolumn="27" endcolumn="38" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="CabinaFamiliar" method="CabinaFamiliar" variable="n_cabina" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'n_cabina' is not assigned and could be declared final
+</violation>
+<violation beginline="4" endline="4" begincolumn="62" endcolumn="74" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="CabinaFamiliar" method="CabinaFamiliar" variable="precio" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'precio' is not assigned and could be declared final
+</violation>
+<violation beginline="4" endline="4" begincolumn="31" endcolumn="38" rule="FormalParameterNamingConventions" ruleset="Code Style" package="FactoryMethod" class="CabinaFamiliar" method="CabinaFamiliar" variable="n_cabina" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions" priority="1">
+The method parameter name 'n_cabina' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\FactoryMethod\CabinaFamiliarFactory.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="21" rule="PackageCase" ruleset="Code Style" package="FactoryMethod" class="CabinaFamiliarFactory" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="3" endline="11" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="FactoryMethod" class="CabinaFamiliarFactory" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="5" endline="5" begincolumn="35" endcolumn="35" rule="ShortVariable" ruleset="Code Style" package="FactoryMethod" class="CabinaFamiliarFactory" method="crearCabina" variable="n" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like n
+</violation>
+<violation beginline="5" endline="5" begincolumn="38" endcolumn="56" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="CabinaFamiliarFactory" method="crearCabina" variable="estado" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'estado' is not assigned and could be declared final
+</violation>
+<violation beginline="5" endline="5" begincolumn="31" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="CabinaFamiliarFactory" method="crearCabina" variable="n" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'n' is not assigned and could be declared final
+</violation>
+<violation beginline="5" endline="5" begincolumn="59" endcolumn="71" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="CabinaFamiliarFactory" method="crearCabina" variable="precio" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'precio' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\FactoryMethod\CabinaInterior.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="21" rule="PackageCase" ruleset="Code Style" package="FactoryMethod" class="CabinaInterior" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="4" endline="4" begincolumn="41" endcolumn="59" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="CabinaInterior" method="CabinaInterior" variable="estado" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'estado' is not assigned and could be declared final
+</violation>
+<violation beginline="4" endline="4" begincolumn="27" endcolumn="38" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="CabinaInterior" method="CabinaInterior" variable="n_cabina" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'n_cabina' is not assigned and could be declared final
+</violation>
+<violation beginline="4" endline="4" begincolumn="62" endcolumn="74" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="CabinaInterior" method="CabinaInterior" variable="precio" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'precio' is not assigned and could be declared final
+</violation>
+<violation beginline="4" endline="4" begincolumn="31" endcolumn="38" rule="FormalParameterNamingConventions" ruleset="Code Style" package="FactoryMethod" class="CabinaInterior" method="CabinaInterior" variable="n_cabina" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions" priority="1">
+The method parameter name 'n_cabina' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\FactoryMethod\CabinaInteriorFactory.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="21" rule="PackageCase" ruleset="Code Style" package="FactoryMethod" class="CabinaInteriorFactory" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="3" endline="11" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="FactoryMethod" class="CabinaInteriorFactory" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="5" endline="5" begincolumn="35" endcolumn="35" rule="ShortVariable" ruleset="Code Style" package="FactoryMethod" class="CabinaInteriorFactory" method="crearCabina" variable="n" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like n
+</violation>
+<violation beginline="5" endline="5" begincolumn="38" endcolumn="56" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="CabinaInteriorFactory" method="crearCabina" variable="estado" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'estado' is not assigned and could be declared final
+</violation>
+<violation beginline="5" endline="5" begincolumn="31" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="CabinaInteriorFactory" method="crearCabina" variable="n" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'n' is not assigned and could be declared final
+</violation>
+<violation beginline="5" endline="5" begincolumn="59" endcolumn="71" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="CabinaInteriorFactory" method="crearCabina" variable="precio" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'precio' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\FactoryMethod\CabinaSuite.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="21" rule="PackageCase" ruleset="Code Style" package="FactoryMethod" class="CabinaSuite" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="4" endline="4" begincolumn="38" endcolumn="56" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="CabinaSuite" method="CabinaSuite" variable="estado" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'estado' is not assigned and could be declared final
+</violation>
+<violation beginline="4" endline="4" begincolumn="24" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="CabinaSuite" method="CabinaSuite" variable="n_cabina" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'n_cabina' is not assigned and could be declared final
+</violation>
+<violation beginline="4" endline="4" begincolumn="59" endcolumn="71" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="CabinaSuite" method="CabinaSuite" variable="precio" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'precio' is not assigned and could be declared final
+</violation>
+<violation beginline="4" endline="4" begincolumn="28" endcolumn="35" rule="FormalParameterNamingConventions" ruleset="Code Style" package="FactoryMethod" class="CabinaSuite" method="CabinaSuite" variable="n_cabina" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions" priority="1">
+The method parameter name 'n_cabina' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\FactoryMethod\EstadoCabina.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="21" rule="PackageCase" ruleset="Code Style" package="FactoryMethod" class="EstadoCabina" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="4" endline="4" begincolumn="5" endcolumn="14" rule="FieldNamingConventions" ruleset="Code Style" package="FactoryMethod" class="EstadoCabina" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The enum constant name 'Disponible' doesn't match '[A-Z][A-Z_0-9]*'
+</violation>
+<violation beginline="5" endline="5" begincolumn="5" endcolumn="13" rule="FieldNamingConventions" ruleset="Code Style" package="FactoryMethod" class="EstadoCabina" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The enum constant name 'Reservado' doesn't match '[A-Z][A-Z_0-9]*'
+</violation>
+<violation beginline="6" endline="6" begincolumn="5" endcolumn="11" rule="FieldNamingConventions" ruleset="Code Style" package="FactoryMethod" class="EstadoCabina" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The enum constant name 'Ocupada' doesn't match '[A-Z][A-Z_0-9]*'
+</violation>
+<violation beginline="7" endline="7" begincolumn="5" endcolumn="20" rule="FieldNamingConventions" ruleset="Code Style" package="FactoryMethod" class="EstadoCabina" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The enum constant name 'En_Mantenimiento' doesn't match '[A-Z][A-Z_0-9]*'
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\FactoryMethod\SuiteFactory.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="21" rule="PackageCase" ruleset="Code Style" package="FactoryMethod" class="SuiteFactory" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="3" endline="11" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="FactoryMethod" class="SuiteFactory" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="5" endline="5" begincolumn="35" endcolumn="35" rule="ShortVariable" ruleset="Code Style" package="FactoryMethod" class="SuiteFactory" method="crearCabina" variable="n" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like n
+</violation>
+<violation beginline="5" endline="5" begincolumn="38" endcolumn="56" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="SuiteFactory" method="crearCabina" variable="estado" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'estado' is not assigned and could be declared final
+</violation>
+<violation beginline="5" endline="5" begincolumn="31" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="SuiteFactory" method="crearCabina" variable="n" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'n' is not assigned and could be declared final
+</violation>
+<violation beginline="5" endline="5" begincolumn="59" endcolumn="71" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FactoryMethod" class="SuiteFactory" method="crearCabina" variable="precio" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'precio' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\Model\Crucero.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="13" rule="PackageCase" ruleset="Code Style" package="Model" class="Crucero" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="5" endline="59" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="Model" class="Crucero" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Crucero' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=11)
+</violation>
+<violation beginline="7" endline="7" begincolumn="17" endcolumn="30" rule="FieldNamingConventions" ruleset="Code Style" package="Model" class="Crucero" variable="duracion_viaje" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The field name 'duracion_viaje' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="12" endline="12" begincolumn="73" endcolumn="92" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Crucero" method="Crucero" variable="cabinas" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'cabinas' is not assigned and could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="20" endcolumn="32" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Crucero" method="Crucero" variable="capacidad" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'capacidad' is not assigned and could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="35" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Crucero" method="Crucero" variable="duracion_viaje" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'duracion_viaje' is not assigned and could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="95" endcolumn="119" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Crucero" method="Crucero" variable="operadores" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'operadores' is not assigned and could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="55" endcolumn="70" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Crucero" method="Crucero" variable="rutas" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'rutas' is not assigned and could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="39" endcolumn="52" rule="FormalParameterNamingConventions" ruleset="Code Style" package="Model" class="Crucero" method="Crucero" variable="duracion_viaje" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions" priority="1">
+The method parameter name 'duracion_viaje' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="36" endline="38" begincolumn="12" endcolumn="5" rule="MethodNamingConventions" ruleset="Code Style" package="Model" class="Crucero" method="getDuracion_viaje" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'getDuracion_viaje' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="40" endline="40" begincolumn="26" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Crucero" method="setRutas" variable="rutas" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'rutas' is not assigned and could be declared final
+</violation>
+<violation beginline="44" endline="44" begincolumn="28" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Crucero" method="setCabinas" variable="cabinas" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'cabinas' is not assigned and could be declared final
+</violation>
+<violation beginline="48" endline="48" begincolumn="31" endcolumn="55" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Crucero" method="setOperadores" variable="operadores" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'operadores' is not assigned and could be declared final
+</violation>
+<violation beginline="52" endline="52" begincolumn="30" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Crucero" method="setCapacidad" variable="capacidad" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'capacidad' is not assigned and could be declared final
+</violation>
+<violation beginline="56" endline="56" begincolumn="35" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Crucero" method="setDuracion_viaje" variable="duracion_viaje" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'duracion_viaje' is not assigned and could be declared final
+</violation>
+<violation beginline="56" endline="58" begincolumn="12" endcolumn="5" rule="MethodNamingConventions" ruleset="Code Style" package="Model" class="Crucero" method="setDuracion_viaje" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'setDuracion_viaje' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="56" endline="56" begincolumn="39" endcolumn="52" rule="FormalParameterNamingConventions" ruleset="Code Style" package="Model" class="Crucero" method="setDuracion_viaje" variable="duracion_viaje" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions" priority="1">
+The method parameter name 'duracion_viaje' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\Model\EstadoProblema.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="13" rule="PackageCase" ruleset="Code Style" package="Model" class="EstadoProblema" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="4" endline="4" begincolumn="5" endcolumn="11" rule="FieldNamingConventions" ruleset="Code Style" package="Model" class="EstadoProblema" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The enum constant name 'Abierto' doesn't match '[A-Z][A-Z_0-9]*'
+</violation>
+<violation beginline="5" endline="5" begincolumn="5" endcolumn="11" rule="FieldNamingConventions" ruleset="Code Style" package="Model" class="EstadoProblema" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The enum constant name 'Cerrado' doesn't match '[A-Z][A-Z_0-9]*'
+</violation>
+<violation beginline="6" endline="6" begincolumn="5" endcolumn="12" rule="FieldNamingConventions" ruleset="Code Style" package="Model" class="EstadoProblema" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The enum constant name 'Resuelto' doesn't match '[A-Z][A-Z_0-9]*'
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\Model\Operador.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="13" rule="PackageCase" ruleset="Code Style" package="Model" class="Operador" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="6" endline="6" begincolumn="21" endcolumn="33" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Operador" method="Operador" variable="nombre" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'nombre' is not assigned and could be declared final
+</violation>
+<violation beginline="11" endline="11" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Model" class="Operador" method="establecerPoliticas" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="15" endline="15" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Model" class="Operador" method="establecerCondicionesCabinas" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="21" endline="21" begincolumn="27" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Operador" method="setNombre" variable="nombre" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'nombre' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\Model\Pago.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="13" rule="PackageCase" ruleset="Code Style" package="Model" class="Pago" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="3" endline="75" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="Model" class="Pago" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Pago
+</violation>
+<violation beginline="3" endline="75" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="Model" class="Pago" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Pago' is suspected to be a Data Class (WOC=15.385%, NOPA=0, NOAM=10, WMC=16)
+</violation>
+<violation beginline="10" endline="10" begincolumn="34" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Pago" method="Pago" variable="monto" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'monto' is not assigned and could be declared final
+</violation>
+<violation beginline="10" endline="10" begincolumn="48" endcolumn="62" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Pago" method="Pago" variable="tipo" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'tipo' is not assigned and could be declared final
+</violation>
+<violation beginline="10" endline="10" begincolumn="17" endcolumn="31" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Pago" method="Pago" variable="usuario" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'usuario' is not assigned and could be declared final
+</violation>
+<violation beginline="22" endline="22" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Model" class="Pago" method="pagoValido" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="30" endline="30" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="Model" class="Pago" method="procesarReembolso" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="31" endline="31" begincolumn="13" endcolumn="24" rule="OnlyOneReturn" ruleset="Code Style" package="Model" class="Pago" method="procesarReembolso" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="52" endline="54" begincolumn="12" endcolumn="5" rule="BooleanGetMethodName" ruleset="Code Style" package="Model" class="Pago" method="getReembolsado" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#booleangetmethodname" priority="4">
+A getX() method which returns a boolean should be named isX()
+</violation>
+<violation beginline="56" endline="56" begincolumn="28" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Pago" method="setUsuario" variable="usuario" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'usuario' is not assigned and could be declared final
+</violation>
+<violation beginline="60" endline="60" begincolumn="26" endcolumn="37" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Pago" method="setMonto" variable="monto" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'monto' is not assigned and could be declared final
+</violation>
+<violation beginline="64" endline="64" begincolumn="25" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Pago" method="setTipo" variable="tipo" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'tipo' is not assigned and could be declared final
+</violation>
+<violation beginline="68" endline="68" begincolumn="37" endcolumn="59" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Pago" method="setMontoReembolsado" variable="montoReembolsado" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'montoReembolsado' is not assigned and could be declared final
+</violation>
+<violation beginline="72" endline="72" begincolumn="32" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Pago" method="setReembolsado" variable="reembolsado" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'reembolsado' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\Model\Problema.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="13" rule="PackageCase" ruleset="Code Style" package="Model" class="Problema" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="3" endline="53" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="Model" class="Problema" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Problema' is suspected to be a Data Class (WOC=10.000%, NOPA=0, NOAM=8, WMC=10)
+</violation>
+<violation beginline="9" endline="9" begincolumn="38" endcolumn="55" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Problema" method="Problema" variable="descripcion" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'descripcion' is not assigned and could be declared final
+</violation>
+<violation beginline="9" endline="9" begincolumn="58" endcolumn="74" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Problema" method="Problema" variable="tipo" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'tipo' is not assigned and could be declared final
+</violation>
+<violation beginline="9" endline="9" begincolumn="21" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Problema" method="Problema" variable="usuario" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'usuario' is not assigned and could be declared final
+</violation>
+<violation beginline="32" endline="32" begincolumn="27" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Problema" method="setEstado" variable="estado" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'estado' is not assigned and could be declared final
+</violation>
+<violation beginline="36" endline="36" begincolumn="28" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Problema" method="setUsuario" variable="usuario" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'usuario' is not assigned and could be declared final
+</violation>
+<violation beginline="40" endline="40" begincolumn="32" endcolumn="49" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Problema" method="setDescripcion" variable="descripcion" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'descripcion' is not assigned and could be declared final
+</violation>
+<violation beginline="44" endline="44" begincolumn="25" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Problema" method="setTipo" variable="tipo" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'tipo' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\Model\Reserva.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="13" rule="PackageCase" ruleset="Code Style" package="Model" class="Reserva" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="5" endline="66" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="Model" class="Reserva" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Reserva' is suspected to be a Data Class (WOC=30.000%, NOPA=0, NOAM=6, WMC=17)
+</violation>
+<violation beginline="11" endline="11" begincolumn="99" endcolumn="102" rule="UnusedFormalParameter" ruleset="Best Practices" package="Model" class="Reserva" method="Reserva" variable="temp" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'temp'.
+</violation>
+<violation beginline="11" endline="11" begincolumn="37" endcolumn="56" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Reserva" method="Reserva" variable="cabinas" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'cabinas' is not assigned and could be declared final
+</violation>
+<violation beginline="11" endline="11" begincolumn="59" endcolumn="83" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Reserva" method="Reserva" variable="servicios" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'servicios' is not assigned and could be declared final
+</violation>
+<violation beginline="11" endline="11" begincolumn="86" endcolumn="102" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Reserva" method="Reserva" variable="temp" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'temp' is not assigned and could be declared final
+</violation>
+<violation beginline="11" endline="11" begincolumn="20" endcolumn="34" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Reserva" method="Reserva" variable="usuario" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'usuario' is not assigned and could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="14" endcolumn="26" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="Model" class="Reserva" method="calcularCostoTotal" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'cabina' could be declared final
+</violation>
+<violation beginline="27" endline="27" begincolumn="14" endcolumn="31" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="Model" class="Reserva" method="calcularCostoTotal" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'servicio' could be declared final
+</violation>
+<violation beginline="31" endline="31" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Model" class="Reserva" method="calcularCostoTotal" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="51" endline="51" begincolumn="28" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Reserva" method="setUsuario" variable="usuario" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'usuario' is not assigned and could be declared final
+</violation>
+<violation beginline="55" endline="55" begincolumn="28" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Reserva" method="setCabinas" variable="cabinas" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'cabinas' is not assigned and could be declared final
+</violation>
+<violation beginline="59" endline="59" begincolumn="30" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Reserva" method="setServicios" variable="servicios" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'servicios' is not assigned and could be declared final
+</violation>
+<violation beginline="63" endline="63" begincolumn="33" endcolumn="49" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Reserva" method="setTemporizador" variable="temp" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'temp' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\Model\Ruta.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="13" rule="PackageCase" ruleset="Code Style" package="Model" class="Ruta" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="4" endline="52" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="Model" class="Ruta" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Ruta
+</violation>
+<violation beginline="4" endline="52" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="Model" class="Ruta" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Ruta' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=9)
+</violation>
+<violation beginline="11" endline="11" begincolumn="64" endcolumn="77" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Ruta" method="Ruta" variable="destino" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'destino' is not assigned and could be declared final
+</violation>
+<violation beginline="11" endline="11" begincolumn="32" endcolumn="46" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Ruta" method="Ruta" variable="fecha" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'fecha' is not assigned and could be declared final
+</violation>
+<violation beginline="11" endline="11" begincolumn="49" endcolumn="61" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Ruta" method="Ruta" variable="inicio" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'inicio' is not assigned and could be declared final
+</violation>
+<violation beginline="11" endline="11" begincolumn="17" endcolumn="29" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Ruta" method="Ruta" variable="nombre" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'nombre' is not assigned and could be declared final
+</violation>
+<violation beginline="35" endline="35" begincolumn="27" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Ruta" method="setNombre" variable="nombre" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'nombre' is not assigned and could be declared final
+</violation>
+<violation beginline="39" endline="39" begincolumn="26" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Ruta" method="setFecha" variable="fecha" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'fecha' is not assigned and could be declared final
+</violation>
+<violation beginline="43" endline="43" begincolumn="27" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Ruta" method="setInicio" variable="inicio" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'inicio' is not assigned and could be declared final
+</violation>
+<violation beginline="47" endline="47" begincolumn="28" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Ruta" method="setDestino" variable="destino" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'destino' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\Model\Servicios.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="13" rule="PackageCase" ruleset="Code Style" package="Model" class="Servicios" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="3" endline="38" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="Model" class="Servicios" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Servicios' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=7)
+</violation>
+<violation beginline="9" endline="9" begincolumn="37" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Servicios" method="Servicios" variable="descripcion" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'descripcion' is not assigned and could be declared final
+</violation>
+<violation beginline="9" endline="9" begincolumn="22" endcolumn="34" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Servicios" method="Servicios" variable="nombre" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'nombre' is not assigned and could be declared final
+</violation>
+<violation beginline="9" endline="9" begincolumn="57" endcolumn="69" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Servicios" method="Servicios" variable="precio" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'precio' is not assigned and could be declared final
+</violation>
+<violation beginline="27" endline="27" begincolumn="27" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Servicios" method="setNombre" variable="nombre" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'nombre' is not assigned and could be declared final
+</violation>
+<violation beginline="31" endline="31" begincolumn="32" endcolumn="49" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Servicios" method="setDescripcion" variable="descripcion" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'descripcion' is not assigned and could be declared final
+</violation>
+<violation beginline="35" endline="35" begincolumn="27" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Servicios" method="setPrecio" variable="precio" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'precio' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\Model\Temporizador.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="13" rule="PackageCase" ruleset="Code Style" package="Model" class="Temporizador" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="9" endline="9" begincolumn="25" endcolumn="34" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Temporizador" method="Temporizador" variable="tiempo" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'tiempo' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="32" endcolumn="51" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Temporizador" method="liberarCabinas" variable="cabinas" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'cabinas' is not assigned and could be declared final
+</violation>
+<violation beginline="14" endline="14" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Model" class="Temporizador" method="liberarCabinas" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="15" endline="15" begincolumn="13" endcolumn="25" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="Model" class="Temporizador" method="liberarCabinas" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'cabina' could be declared final
+</violation>
+<violation beginline="18" endline="18" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" package="Model" class="Temporizador" method="liberarCabinas" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="27" endline="27" begincolumn="27" endcolumn="36" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Temporizador" method="setTiempo" variable="tiempo" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'tiempo' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\Model\TipoDePago.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="13" rule="PackageCase" ruleset="Code Style" package="Model" class="TipoDePago" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="4" endline="4" begincolumn="5" endcolumn="12" rule="FieldNamingConventions" ruleset="Code Style" package="Model" class="TipoDePago" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The enum constant name 'Efectivo' doesn't match '[A-Z][A-Z_0-9]*'
+</violation>
+<violation beginline="5" endline="5" begincolumn="5" endcolumn="20" rule="FieldNamingConventions" ruleset="Code Style" package="Model" class="TipoDePago" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The enum constant name 'TarjetaDeCredito' doesn't match '[A-Z][A-Z_0-9]*'
+</violation>
+<violation beginline="6" endline="6" begincolumn="5" endcolumn="19" rule="FieldNamingConventions" ruleset="Code Style" package="Model" class="TipoDePago" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The enum constant name 'TarjetaDeDebito' doesn't match '[A-Z][A-Z_0-9]*'
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\Model\TipoProblema.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="13" rule="PackageCase" ruleset="Code Style" package="Model" class="TipoProblema" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="4" endline="4" begincolumn="5" endcolumn="8" rule="FieldNamingConventions" ruleset="Code Style" package="Model" class="TipoProblema" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The enum constant name 'Leve' doesn't match '[A-Z][A-Z_0-9]*'
+</violation>
+<violation beginline="5" endline="5" begincolumn="5" endcolumn="11" rule="FieldNamingConventions" ruleset="Code Style" package="Model" class="TipoProblema" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The enum constant name 'Critico' doesn't match '[A-Z][A-Z_0-9]*'
+</violation>
+</file>
+<file name="C:\Users\Usuario\Downloads\Tarea03\Tarea03\Tarea3Sistema\Tarea3Sistema\Tarea3\src\main\java\Model\Usuario.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="13" rule="PackageCase" ruleset="Code Style" package="Model" class="Usuario" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="7" endline="81" begincolumn="8" endcolumn="1" rule="DataClass" ruleset="Design" package="Model" class="Usuario" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Usuario' is suspected to be a Data Class (WOC=25.000%, NOPA=0, NOAM=8, WMC=16)
+</violation>
+<violation beginline="9" endline="9" begincolumn="17" endcolumn="18" rule="ShortVariable" ruleset="Code Style" package="Model" class="Usuario" variable="ID" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like ID
+</violation>
+<violation beginline="9" endline="9" begincolumn="17" endcolumn="18" rule="FieldNamingConventions" ruleset="Code Style" package="Model" class="Usuario" variable="ID" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The field name 'ID' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="13" endline="13" begincolumn="39" endcolumn="40" rule="ShortVariable" ruleset="Code Style" package="Model" class="Usuario" method="Usuario" variable="ID" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like ID
+</violation>
+<violation beginline="13" endline="13" begincolumn="35" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Usuario" method="Usuario" variable="ID" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'ID' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="20" endcolumn="32" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Usuario" method="Usuario" variable="nombre" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'nombre' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="39" endcolumn="40" rule="FormalParameterNamingConventions" ruleset="Code Style" package="Model" class="Usuario" method="Usuario" variable="ID" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions" priority="1">
+The method parameter name 'ID' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="20" endline="20" begincolumn="50" endcolumn="69" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Usuario" method="hacerReserva" variable="cabinas" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'cabinas' is not assigned and could be declared final
+</violation>
+<violation beginline="20" endline="20" begincolumn="33" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Usuario" method="hacerReserva" variable="crucero" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'crucero' is not assigned and could be declared final
+</violation>
+<violation beginline="20" endline="20" begincolumn="72" endcolumn="96" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Usuario" method="hacerReserva" variable="servicios" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'servicios' is not assigned and could be declared final
+</violation>
+<violation beginline="21" endline="21" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Model" class="Usuario" method="hacerReserva" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="23" endline="23" begincolumn="14" endcolumn="21" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="Model" class="Usuario" method="hacerReserva" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'c' could be declared final
+</violation>
+<violation beginline="28" endline="28" begincolumn="9" endcolumn="86" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="Model" class="Usuario" method="hacerReserva" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'reserva' could be declared final
+</violation>
+<violation beginline="35" endline="35" begincolumn="62" endcolumn="63" rule="ShortVariable" ruleset="Code Style" package="Model" class="Usuario" method="reportarProblemas" variable="hr" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like hr
+</violation>
+<violation beginline="35" endline="35" begincolumn="44" endcolumn="44" rule="ShortVariable" ruleset="Code Style" package="Model" class="Usuario" method="reportarProblemas" variable="p" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like p
+</violation>
+<violation beginline="35" endline="35" begincolumn="47" endcolumn="63" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Usuario" method="reportarProblemas" variable="hr" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'hr' is not assigned and could be declared final
+</violation>
+<violation beginline="35" endline="35" begincolumn="35" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Usuario" method="reportarProblemas" variable="p" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'p' is not assigned and could be declared final
+</violation>
+<violation beginline="36" endline="36" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Model" class="Usuario" method="reportarProblemas" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="42" endline="42" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="Model" class="Usuario" method="realizarPago" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="45" endline="45" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="Model" class="Usuario" method="realizarPago" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="65" endline="65" begincolumn="27" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Usuario" method="setNombre" variable="nombre" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'nombre' is not assigned and could be declared final
+</violation>
+<violation beginline="69" endline="69" begincolumn="27" endcolumn="28" rule="ShortVariable" ruleset="Code Style" package="Model" class="Usuario" method="setID" variable="ID" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like ID
+</violation>
+<violation beginline="69" endline="69" begincolumn="23" endcolumn="28" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Usuario" method="setID" variable="ID" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'ID' is not assigned and could be declared final
+</violation>
+<violation beginline="69" endline="69" begincolumn="27" endcolumn="28" rule="FormalParameterNamingConventions" ruleset="Code Style" package="Model" class="Usuario" method="setID" variable="ID" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions" priority="1">
+The method parameter name 'ID' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="73" endline="73" begincolumn="25" endcolumn="33" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Usuario" method="setPago" variable="pago" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'pago' is not assigned and could be declared final
+</violation>
+<violation beginline="77" endline="77" begincolumn="30" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Model" class="Usuario" method="setProblemas" variable="problemas" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'problemas' is not assigned and could be declared final
+</violation>
+</file>
+<configerror rule="LoosePackageCoupling" msg="No packages or classes specified"/>
+</pmd>
