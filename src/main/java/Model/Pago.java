@@ -16,6 +16,9 @@ public class Pago {
     }
 
     public boolean pagoValido(){
+        if (tipo==null){
+            throw new IllegalStateException();
+        }
         System.out.println("💳 Validando pago de $" + monto + " con " + tipo);
         return monto>0;
     }  

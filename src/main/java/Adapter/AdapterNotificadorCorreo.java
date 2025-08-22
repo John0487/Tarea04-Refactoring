@@ -10,6 +10,9 @@ public class AdapterNotificadorCorreo implements Notificador{
 
     @Override
     public void notificar(Usuario usuario, String test){
+        if (usuario==null){
+            throw new IllegalArgumentException();
+        }
         notificadorCorreo.enviarCorreo(usuario);
     }
 

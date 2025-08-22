@@ -10,6 +10,9 @@ public class AdapterNotificadorSMS implements Notificador{
 
     @Override
     public void notificar(Usuario usuario, String test){
+        if (usuario==null){
+            throw new IllegalArgumentException();
+        }
         notificadorSMS.enviarSMS(usuario);
     }
 

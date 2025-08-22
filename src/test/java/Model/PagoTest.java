@@ -33,5 +33,24 @@ class PagoTest {
         Pago pago = new Pago(usuario, 100.0, TipoDePago.TarjetaDeDebito);
         assertTrue(pago.procesarReembolso());
     }
+    
+    @DisplayName("Asegurar que solo se aceptan tipos de pago válidos")
+    @Test
+    void CP_21(){
+        Usuario usuario = new Usuario("Carlos",1);
+        Pago pago = new Pago(usuario, 100.0, null);
+         assertThrows(IllegalStateException.class, () -> {
+            pago.pagoValido();
+        });
+    }
+    
+    @DisplayName("Validar que no se permite procesar reembolsos duplicados")
+    @Test
+    void CP_22(){
+        Usuario usuario = new Usuario("Carlos",1);
+        Pago pago = new Pago(usuario, 100.0, TipoDePago.TarjetaDeDebito);
+        pago.procesarReembolso();
+        assertFalse(pago.procesarReembolso());
+    }
 }
 

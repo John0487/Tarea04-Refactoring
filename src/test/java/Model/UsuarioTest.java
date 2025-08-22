@@ -59,6 +59,33 @@ class UsuarioTest {
 
         assertThrows(IllegalArgumentException.class, () -> usuario.realizarPago());
     }
+    
+    @DisplayName("Identificar que no se pueda hacer una reserva parcial")
+    @Test
+    void CP_19(){
+         Usuario usuario = new Usuario("Juan", 101);
+        Cabina cabinaOcupada = new CabinaSimple(1, EstadoCabina.Ocupada, 100);
+        Cabina cabinaDisponible = new CabinaSimple(2, EstadoCabina.Disponible, 100);
+        Cabina[] cabinas = {cabinaDisponible, cabinaOcupada};
+        assertThrows(IllegalStateException.class, () -> {
+            usuario.hacerReserva(null,
+                    Arrays.asList(cabinas),
+                    Collections.emptyList());
+        });
+    }
+    
+    @DisplayName("Validar que el cálculo funciona cuando no hay servicios")
+    @Test
+    void CP_20(){
+        Usuario usuario = new Usuario("Juan", 101);
+        Cabina cabinaDisponible = new CabinaSimple(2, EstadoCabina.Disponible, 100);
+        Cabina cabinaDisponible2 = new CabinaSimple(3, EstadoCabina.Disponible, 100);
+        Cabina[] cabinas = {cabinaDisponible, cabinaDisponible2};
+        Reserva reserva = usuario.hacerReserva(null,
+                    Arrays.asList(cabinas),
+                    Collections.emptyList());
+        assertEquals(200, reserva.calcularCostoTotal());   
+    }
 }
 
 
