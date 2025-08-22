@@ -1,0 +1,14 @@
+ChainOfResponsibility\GerenciaCruceroTest.class
+FactoryMethod\SuiteFactoryTest.class
+Model\TemporizadorTest.class
+Adapter\AdapterNotificadorCorreoTest.class
+Model\PagoTest.class
+Adapter\AdapterNotificadorSMSTest.class
+FactoryMethod\CabinaInteriorFactoryTest.class
+Model\ReservaTest$CabinaSimple.class
+Model\ReservaTest.class
+Adapter\AdapterNotificadorMensajeriaTest.class
+ChainOfResponsibility\AgenteDeSoporteTest.class
+Model\UsuarioTest.class
+Model\TemporizadorTest$CabinaTest.class
+Model\UsuarioTest$CabinaSimple.class
