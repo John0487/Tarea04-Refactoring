@@ -33,4 +33,16 @@ public class Itinerario {
     public void setOperadores(List<Operador> operadores){
         this.operadores = operadores;
     }
+
+    public void agregarRuta(Ruta ruta) {
+        rutas.add(ruta);
+    }
+
+    public void agregarCabina(Cabina cabina) {
+        cabinas.add(cabina);
+    }
+
+    public void agregarOperador(Operador operador) {
+        operadores.add(operador);
+    }
 }

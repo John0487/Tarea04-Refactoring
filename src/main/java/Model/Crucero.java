@@ -31,4 +31,16 @@ public class Crucero {
     public void setDuracion_viaje(int duracion_viaje) {
         this.duracion_viaje = duracion_viaje;
     }
+    
+    public void agregarCabina(Cabina cabina){
+        itinerario.agregarCabina(cabina);
+    }
+
+    public void asignarOperador(Operador operador) {
+        itinerario.agregarOperador(operador);
+    }
+
+    public int calcularTotalCabinas() {
+        return itinerario.getCabinas().size();
+    }
 }
