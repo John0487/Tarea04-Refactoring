@@ -13,10 +13,7 @@ public class Temporizador {
     public void liberarCabinas(List<Cabina> cabinas){
         System.out.println("Tiempo finalizado, liberando las cabinas");
         for(Cabina cabina : cabinas){
-            if (cabina.getEstado() == EstadoCabina.Reservado) {
-                cabina.setEstado(EstadoCabina.Disponible);
-                System.out.println("Cabina " + cabina.getN_cabina() + " liberada automáticamente");
-            }
+            cabina.liberar();
         }
     }
 
