@@ -29,7 +29,7 @@ public class AgenteDeSoporte extends HandlerReporte {
     private void proporcionarSoporteTecnico(Problema p) {
         System.out.println("Ejecutando diagnóstico técnico");
         System.out.println("Aplicando solución estándar");
-        System.out.println("Enviando confirmación al usuario: " + p.getUsuario().getNombre());
+        System.out.println("Enviando confirmación al usuario: " + p.getNombreUsuario());
         System.out.println("Documentando solución en base de conocimiento");
     }
 }
