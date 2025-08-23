@@ -13,12 +13,10 @@ public class GerenciaCrucero extends HandlerReporte {
     public void atenderReporte(Problema p) {
         System.out.println("\n [GERENCIA CRUCERO] ID: " + ID + " - Procesando problema: " + p);
         
-        // La gerencia puede manejar problemas críticos
         if (p.getTipo() == TipoProblema.Critico) {
             System.out.println("  [" + nombre + "] Problema crítico resuelto con autoridad ejecutiva");
             p.setEstado(EstadoProblema.Resuelto);
             
-            // Acciones específicas para problemas críticos
             manejarProblemaCritico(p);
             
         } else if (p.getTipo() == TipoProblema.Leve) {

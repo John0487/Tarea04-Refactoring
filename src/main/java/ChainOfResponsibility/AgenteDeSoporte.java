@@ -12,15 +12,13 @@ public class AgenteDeSoporte extends HandlerReporte {
     @Override
     public void atenderReporte(Problema p) {
         System.out.println("\n🎧 [AGENTE DE SOPORTE] ID: " + ID + " - Procesando problema: " + p);
-        
-        // El agente de soporte maneja principalmente problemas leves
+
         if (p.getTipo() == TipoProblema.Leve && 
             p.getEstado() == EstadoProblema.Abierto) {
             
             System.out.println(" [" + nombre + "] Problema leve resuelto mediante soporte técnico");
             p.setEstado(EstadoProblema.Resuelto);
             
-            // Acciones específicas de soporte
             proporcionarSoporteTecnico(p);
             
         } else if (p.getTipo() == TipoProblema.Critico) {
