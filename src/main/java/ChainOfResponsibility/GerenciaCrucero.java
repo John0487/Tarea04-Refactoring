@@ -16,16 +16,10 @@ public class GerenciaCrucero extends HandlerReporte {
         if (p.getTipo() == TipoProblema.Critico) {
             System.out.println("  [" + nombre + "] Problema crítico resuelto con autoridad ejecutiva");
             p.setEstado(EstadoProblema.Resuelto);
-            
             manejarProblemaCritico(p);
-            
-        } else if (p.getTipo() == TipoProblema.Leve) {
-            System.out.println("   [" + nombre + "] Problema leve resuelto rápidamente");
-            p.setEstado(EstadoProblema.Resuelto);
-            
+            return;
         } else {
             System.out.println("   [" + nombre + "] No se puede determinar el tipo de problema");
-            transferirAlSiguiente(p);
         }
     }
     

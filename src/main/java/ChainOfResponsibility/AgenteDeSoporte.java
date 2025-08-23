@@ -18,13 +18,8 @@ public class AgenteDeSoporte extends HandlerReporte {
             
             System.out.println(" [" + nombre + "] Problema leve resuelto mediante soporte técnico");
             p.setEstado(EstadoProblema.Resuelto);
-            
             proporcionarSoporteTecnico(p);
-            
-        } else if (p.getTipo() == TipoProblema.Critico) {
-            System.out.println(" [" + nombre + "] Problema crítico requiere escalación a gerencia");
-            transferirAlSiguiente(p);
-            
+            return;
         } else {
             System.out.println(" [" + nombre + "] No puedo manejar este problema");
             transferirAlSiguiente(p);
