@@ -44,13 +44,8 @@ public class Usuario {
         hr.atenderReporte(p);
     }
 
-    public void realizarPago(){
-        if (pago.pagoValido()){
-            System.out.println("Usuario: " + nombre + " ha pagado la cantidad de: " + pago.getMonto() + " con: " + pago.getTipo());
-        }
-        else {
-            System.out.println("No se pudo completar el pago, intente otra vez");
-        }
+    public void realizarPagoUser(){
+        pago.realizarPago();
     }
 
     public String getNombre() {

@@ -20,10 +20,20 @@ public class Pago {
         System.out.println("💳 Validando pago de $" + monto + " con " + tipo);
         return monto>0;
     }  
+
+    public void realizarPago(){
+        if (this.pagoValido()){
+            System.out.println("Usuario: " + usuario.getNombre() + " ha pagado la cantidad de: " + this.getMonto() + " con: " + this.getTipo());
+        }
+        else {
+            System.out.println("No se pudo completar el pago, intente otra vez");
+        }
+    }
     
     public boolean procesarReembolsoPago(){
         return reembolso.procesarReembolso(monto);
     }
+
 
     public Usuario getUsuario() {
         return usuario;
