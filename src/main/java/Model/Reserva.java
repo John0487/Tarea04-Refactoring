@@ -15,21 +15,31 @@ public class Reserva {
     }
   
     public double calcularCostoTotal() {
-        if ((cabinas == null || cabinas.isEmpty()) && (servicios == null || servicios.isEmpty())) {
+        boolean sinCabinas = cabinas == null || cabinas.isEmpty();
+        boolean sinServicios = servicios == null || servicios.isEmpty();
+
+        if (sinCabinas && sinServicios) {
             throw new IllegalArgumentException("No se puede calcular costo sin cabinas ni servicios");
         }
-
-        double costoTotal = 0.0;
-        for (Cabina cabina : cabinas) {
-            costoTotal += cabina.getPrecio();
-        }
-
-        for (Servicios servicio : servicios) {
-            costoTotal += servicio.getPrecio();
-        }
-
+        
+        double costoTotal = costoPorCabinas() + costoPorServicios();
+        
         System.out.println("💰 Costo total calculado: $" + costoTotal);
         return costoTotal;
+    }
+    public double costoPorCabinas(){
+        double monto = 0.0;
+        for (Cabina cabina : cabinas) {
+            monto += cabina.getPrecio();
+        }
+        return monto;
+    }
+    public double costoPorServicios(){
+        double monto = 0.0;
+        for (Servicios servicio : servicios) {
+            monto += servicio.getPrecio();
+        }
+        return monto;
     }
 
     public Usuario getUsuario() {
