@@ -1,5 +1,7 @@
 package FactoryMethod;
 
+import java.util.List;
+
 public abstract class Cabina {
     protected int n_cabina;
     protected EstadoCabina estado;
@@ -10,6 +12,13 @@ public abstract class Cabina {
         this.precio = precio;
         this.estado = estado;
     }
+
+    public void liberar(){
+        if (this.getEstado() == EstadoCabina.Reservado) {
+            this.setEstado(EstadoCabina.Disponible);
+            System.out.println("Cabina " + this.getN_cabina() + " liberada automáticamente");
+        }
+    }   
 
     public int getN_cabina() {
         return n_cabina;

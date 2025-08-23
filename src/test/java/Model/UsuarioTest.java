@@ -45,19 +45,19 @@ class UsuarioTest {
     @Test
     void CP_12() {
         Usuario usuario = new Usuario("Ana", 1);
-        Pago pago = new Pago(usuario, 100.0, TipoDePago.TarjetaDeCredito);
+        Pago pago = new Pago(usuario, 100.0, TipoDePago.TarjetaDeCredito, null);
         usuario.setPago(pago);
-        assertDoesNotThrow(() -> usuario.realizarPago());
+        assertDoesNotThrow(() -> usuario.realizarPagoUser());
     }
 
     @DisplayName("Comprobar que no se puede realizar un pago con monto negativo")
     @Test
     void CP_13() {
         Usuario usuario = new Usuario("Ana", 1);
-        Pago pago = new Pago(usuario, -50.0, TipoDePago.Efectivo);
+        Pago pago = new Pago(usuario, -50.0, TipoDePago.Efectivo,null);
         usuario.setPago(pago);
 
-        assertThrows(IllegalArgumentException.class, () -> usuario.realizarPago());
+        assertThrows(IllegalArgumentException.class, () -> usuario.realizarPagoUser());
     }
     
     @DisplayName("Identificar que no se pueda hacer una reserva parcial")

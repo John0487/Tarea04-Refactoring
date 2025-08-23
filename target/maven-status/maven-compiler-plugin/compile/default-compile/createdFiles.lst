@@ -17,6 +17,7 @@ Model\TipoProblema.class
 Adapter\NotificadorSMS.class
 Adapter\NotificadorMensajeria.class
 Model\Reserva.class
+Model\Itinerario.class
 Model\Pago.class
 FactoryMethod\CabinaInterior.class
 Model\Crucero.class
@@ -25,6 +26,7 @@ FactoryMethod\CabinaInteriorFactory.class
 Adapter\NotificadorCorreo.class
 Model\Usuario.class
 Adapter\Notificador.class
+Model\Reembolso.class
 ChainOfResponsibility\AgenteDeSoporte.class
 FactoryMethod\CabinaBalcon.class
 Model\Operador.class

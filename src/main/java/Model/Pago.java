@@ -58,6 +58,11 @@ public class Pago {
     public void setTipo(TipoDePago tipo){
         this.tipo = tipo;
     }
+    
+    
+    public Reembolso getReembolso(){
+        return this.reembolso;
+    }
 
     public double getMontoReembolsado() {
         return reembolso.getMontoReembolsado();
