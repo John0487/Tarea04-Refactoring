@@ -28,6 +28,9 @@ public class Problema {
     public TipoProblema getTipo() {
         return tipo;
     }
+    public String getNombreUsuario(){
+        return usuario.getNombre();
+    }
 
     public void setEstado(EstadoProblema estado){
         this.estado = estado;
