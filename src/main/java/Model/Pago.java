@@ -4,15 +4,13 @@ public class Pago {
     private Usuario usuario;
     private double monto;
     private TipoDePago tipo;
-    private double montoReembolsado;
-    private boolean reembolsado;
+    private Reembolso reembolso;
 
-    public Pago(Usuario usuario, double monto, TipoDePago tipo){
+    public Pago(Usuario usuario, double monto, TipoDePago tipo, Reembolso reembolso){
         this.usuario = usuario;
         this.monto = monto;
         this.tipo = tipo;
-        this.montoReembolsado = 0.0;
-        this.reembolsado = false;
+        this.reembolso = reembolso;
     }
 
     public boolean pagoValido(){
@@ -23,14 +21,8 @@ public class Pago {
         return monto>0;
     }  
     
-    public boolean procesarReembolso(){
-        if(!reembolsado){
-            this.montoReembolsado = monto;
-            this.reembolsado = true;
-            System.out.println("Reembolso Procesado con exito la cantidad de: " + montoReembolsado);
-            return true;
-        }
-        return false;
+    public boolean procesarReembolsoPago(){
+        return reembolso.procesarReembolso(monto);
     }
 
     public Usuario getUsuario() {
@@ -45,14 +37,6 @@ public class Pago {
         return tipo;
     }
 
-    public double getMontoReembolsado() {
-        return montoReembolsado;
-    }
-
-    public boolean getReembolsado() {
-        return reembolsado;
-    }
-
     public void setUsuario(Usuario usuario){
         this.usuario = usuario;
     }
@@ -65,11 +49,11 @@ public class Pago {
         this.tipo = tipo;
     }
 
-    public void setMontoReembolsado(double montoReembolsado){
-        this.montoReembolsado = montoReembolsado;
+    public double getMontoReembolsado() {
+        return reembolso.getMontoReembolsado();
     }
 
-    public void setReembolsado(boolean reembolsado){
-        this.reembolsado = reembolsado;
+    public boolean getReembolsado() {
+        return reembolso.getReembolsado();
     }
 }
