@@ -20,16 +20,23 @@ public class Usuario {
     public Reserva hacerReserva(Crucero crucero, List<Cabina> cabinas, List<Servicios> servicios){
         System.out.println("Realizando reserva por usuario : " + nombre + " con ID: " + ID);
 
+        validarDisponibilidadCabinas(cabinas);
+
+        return crearReserva(cabinas, servicios);
+    }
+    private void validarDisponibilidadCabinas(List<Cabina> cabinas){
         for (Cabina c : cabinas) {
             if (c.getEstado() != EstadoCabina.Disponible) {
                 throw new IllegalStateException("Cabina " + c.getN_cabina() + " no está disponible");
             }
         }
+    }
+
+    private Reserva crearReserva(List<Cabina> cabinas, List<Servicios> servicios){
         Reserva reserva = new Reserva(this, cabinas, servicios, new Temporizador(300));
         reserva.calcularCostoTotal();
         return reserva;
     }
-
 
 
     public void reportarProblemas(Problema p, HandlerReporte hr){
